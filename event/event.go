@@ -1,4 +1,4 @@
-package eventcalendar
+package event
 
 import "time"
 
