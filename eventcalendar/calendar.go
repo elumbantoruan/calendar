@@ -9,8 +9,8 @@ func New(storage storage.Storage) *Calendar {
 	}
 }
 
-// Add .
-func (c *Calendar) Add(event Event) (*Event, error) {
+// AddEvent adds an event .
+func (c *Calendar) AddEvent(event Event) (*Event, error) {
 	return &Event{}, nil
 }
 
